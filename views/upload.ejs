@@ -1,0 +1,17 @@
+<%- include("top"); -%>
+
+<div class="upload-container">
+  <form class="form" action="/upload" method="post" encType="multipart/form-data">
+    <div class="upload-area">
+      <p>Drag and drop</p>
+    </div>
+    <input class="draggedFile" name="videofile" type="file" />
+    <input class="upload-btn" type="submit" value="Upload File" />
+  </form>
+</div>
+
+
+<script src="common.js"></script>
+
+
+<%- include("bottom"); -%>
